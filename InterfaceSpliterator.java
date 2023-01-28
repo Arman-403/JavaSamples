@@ -7,20 +7,16 @@ public class InterfaceSpliterator {
 
 	public static void main(String args[])
 	{
-
-		
+	
 		ArrayList<Integer> list = new ArrayList<>();
 
-		
 		list.add(101);
 		list.add(201);
 		list.add(301);
 		list.add(401);
 		list.add(501);
 
-	
 		Stream<Integer> str = list.stream();
-
 		
 		Spliterator<Integer> splitr = str.spliterator();
 
